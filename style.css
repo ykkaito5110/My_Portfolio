@@ -6,7 +6,6 @@ body {
   background-color: #f4f4f4;
   color: #333;
   text-align: center;
-  line-height: 1.6;
 }
 
 /* ヘッダー */
@@ -18,7 +17,6 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 1.8em;
 }
 
 nav ul {
@@ -47,27 +45,19 @@ nav a:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.hero h2,
-.hero p {
-  max-width: 600px;
-  margin: 0 auto 20px;
-  white-space: normal;
+.hero h2 {
+  margin-bottom: 10px;
+  font-size: 2em;
 }
 
 /* セクション共通 */
 section {
   padding: 60px 20px;
   max-width: 960px;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   background-color: #fff;
+  margin-bottom: 20px;
   border-radius: 8px;
-}
-
-/* セクションタイトル中央揃え */
-.section-title {
-  text-align: center;
-  font-size: 1.8em;
-  margin-bottom: 30px;
 }
 
 /* ポートフォリオ動画 */
